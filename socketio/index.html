@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head><title>Hello world</title></head>
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var socket = io();
+
+socket.on('update', function(data) {
+                //addMessage(data.message);
+console.log(data);
+});
+                // Respond with a message including this clients' id sent from the server
+                socket.emit('send', {data: 'foo!', id: 2323232323});
+           
+  </script>
+  <body>Hello world</body>
+</html>

@@ -1,0 +1,2154 @@
+2016/05/18 17:34:17 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /var/www/html/VehicleHook/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/db/CDbConnection.php(330): CDbConnection->open()
+#1 /var/www/html/VehicleHook/framework/db/CDbConnection.php(308): CDbConnection->setActive(true)
+#2 /var/www/html/VehicleHook/framework/base/CModule.php(387): CDbConnection->init()
+#3 /var/www/html/VehicleHook/framework/caching/CDbCache.php(152): CModule->getComponent('db')
+#4 /var/www/html/VehicleHook/framework/caching/CDbCache.php(77): CDbCache->getDbConnection()
+#5 /var/www/html/VehicleHook/framework/base/CModule.php(387): CDbCache->init()
+#6 /var/www/html/VehicleHook/framework/web/CUrlManager.php(216): CModule->getComponent('cache')
+#7 /var/www/html/VehicleHook/framework/web/CUrlManager.php(206): CUrlManager->processRules()
+#8 /var/www/html/VehicleHook/framework/base/CModule.php(387): CUrlManager->init()
+#9 /var/www/html/VehicleHook/framework/base/CApplication.php(522): CModule->getComponent('urlManager')
+#10 /var/www/html/VehicleHook/framework/web/CWebApplication.php(140): CApplication->getUrlManager()
+#11 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#12 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#13 {main}
+REQUEST_URI=/VehicleHook/
+---
+2016/05/18 17:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/1.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/1.png
+HTTP_REFERER=http://frendsdom.com/VehicleHook/
+---
+2016/05/18 17:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/11.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/11.png
+HTTP_REFERER=http://frendsdom.com/VehicleHook/
+---
+2016/05/18 17:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/1_002.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/1_002.jpg
+HTTP_REFERER=http://frendsdom.com/VehicleHook/
+---
+2016/05/18 17:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/4.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/4.jpg
+HTTP_REFERER=http://frendsdom.com/VehicleHook/
+---
+2016/05/18 17:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/2.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/2.jpg
+HTTP_REFERER=http://frendsdom.com/VehicleHook/
+---
+2016/05/18 17:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/3_002.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/3_002.jpg
+HTTP_REFERER=http://frendsdom.com/VehicleHook/
+---
+2016/05/18 17:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/10.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/10.png
+HTTP_REFERER=http://frendsdom.com/VehicleHook/
+---
+2016/05/18 17:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/static/images/bg/255.jpg
+HTTP_REFERER=http://frendsdom.com/VehicleHook/static/css/style.css
+---
+2016/05/18 17:55:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://frendsdom.com/VehicleHook/static/css/style_002.css
+---
+2016/05/18 17:55:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://frendsdom.com/VehicleHook/static/css/style_004.css
+---
+2016/05/18 17:55:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://frendsdom.com/VehicleHook/static/css/style_003.css
+---
+2016/05/18 17:55:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://frendsdom.com/VehicleHook/static/css/style_002.css
+---
+2016/05/18 17:55:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://frendsdom.com/VehicleHook/static/css/style_003.css
+---
+2016/05/18 17:55:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://frendsdom.com/VehicleHook/static/css/style_004.css
+---
+2016/05/18 17:55:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/VehicleHook/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://frendsdom.com/VehicleHook/static/css/style_004.css
+---
+2016/05/18 17:56:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 17:56:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 17:56:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 17:56:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/05/18 17:56:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/1.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/1.png
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:56:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/11.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/11.png
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:56:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/4.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/4.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:56:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/1_002.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/1_002.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:56:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/2.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/2.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 17:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/3_002.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/3_002.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 17:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 17:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/10.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/10.png
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:56:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 17:56:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/05/18 17:56:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/05/18 17:59:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/1.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/1.png
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:59:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/11.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/11.png
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/4.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/4.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/05/18 17:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/2.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/2.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 17:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 17:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/3_002.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/3_002.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 17:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/10.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/10.png
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/1_002.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/1_002.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 17:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 17:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 17:59:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 17:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/1.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/1.png
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/11.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/11.png
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 18:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 18:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/05/18 18:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/4.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/4.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/1_002.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/1_002.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/2.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/2.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/3_002.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/3_002.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 18:01:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 18:01:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:01:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/10.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/10.png
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:01:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/1.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/1.png
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/4.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/4.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/11.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/11.png
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/1_002.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/1_002.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/2.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/2.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/3_002.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/3_002.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Unicore _ Responsive Multipurpose Landing Page_files/10.png".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('Unicore _ Respo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/Unicore%20_%20Responsive%20Multipurpose%20Landing%20Page_files/10.png
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.svg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.svg?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.svg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.svg?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:03:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.svg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.svg?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/05/18 18:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 18:09:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 18:10:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:10:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 18:10:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 18:10:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:10:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/05/18 18:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 18:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 18:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 18:11:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 18:11:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:11:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/05/18 18:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 18:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 18:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 18:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 18:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:12:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:46:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/18 18:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/05/18 18:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 18:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 18:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/18 18:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/18 18:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/18 18:46:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/19 07:38:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/19 07:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/05/19 07:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/19 07:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/19 07:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/19 07:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/19 07:38:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/19 07:38:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/19 07:38:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/19 08:08:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/19 08:08:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/05/19 08:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/19 08:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/19 08:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/19 08:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/19 08:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/19 08:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/19 08:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/19 08:08:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/05/19 08:08:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/05/20 12:35:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:35:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:35:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:35:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:35:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.svg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.svg?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.svg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.svg?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:35:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.svg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.svg?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:37:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:37:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:37:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:37:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:37:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.svg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.svg?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:37:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.svg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.svg?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/20 12:37:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.svg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.svg?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/21 18:20:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/21 18:20:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/21 18:20:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/21 18:20:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/21 18:20:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/21 18:20:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/21 18:20:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/21 18:20:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/05/21 18:20:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/25 11:38:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/25 11:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/25 11:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/25 11:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/25 11:38:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/25 11:38:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/25 11:38:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/25 11:38:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.svg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.svg?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/25 11:38:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.svg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.svg?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/25 11:38:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.svg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.svg?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/25 16:03:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/05/25 16:03:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/05/25 16:03:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/25 16:03:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/25 16:03:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/25 16:03:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/05/25 16:03:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/05/25 16:03:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/05/25 16:03:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/02 18:43:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/06/02 18:43:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/06/02 18:43:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/06/02 18:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/06/02 18:43:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/02 18:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/06/02 18:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/06/02 18:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/02 18:43:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/03 12:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/06/03 12:03:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/06/03 12:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/06/03 12:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/06/03 12:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/03 12:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/06/03 12:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/06/03 12:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/03 12:03:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/07 07:40:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/06/07 07:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/06/07 07:40:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/06/07 07:40:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/06/07 07:40:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/07 07:40:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/06/07 07:40:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/06/07 07:40:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/07 07:40:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/07 08:20:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/06/07 08:20:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/06/07 08:20:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/06/07 08:20:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/06/07 08:20:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/07 08:20:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/06/07 08:20:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/07 08:20:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/06/07 08:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/06/07 08:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/06/07 08:20:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2016/08/26 06:50:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/08/26 06:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/08/26 06:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/08/26 06:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/08/26 06:50:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/08/26 06:50:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/08/26 06:50:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/08/26 06:50:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/08/26 06:50:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/08/29 08:12:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/11.png class=".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/1...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/11.png%20class=
+HTTP_REFERER=http://vhook.frendsdom.com/
+---
+2016/08/29 08:12:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.ttf?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/08/29 08:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.ttf?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/08/29 08:12:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff2".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff2?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/08/29 08:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/icomoon2.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/icomoon2.woff?jp3f9l
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_002.css
+---
+2016/08/29 08:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/css/fonts/un.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/css/font...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/css/fonts/un.woff?jzbwqt
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_003.css
+---
+2016/08/29 08:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.woff".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.woff?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---
+2016/08/29 08:12:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/images/bg/255.jpg".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/images/b...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/images/bg/255.jpg
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style.css
+---
+2016/08/29 08:12:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "static/fonts/fontawesome-webfont.ttf".' in /var/www/html/VehicleHook/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/VehicleHook/framework/web/CWebApplication.php(141): CWebApplication->runController('static/fonts/fo...')
+#1 /var/www/html/VehicleHook/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/VehicleHook/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/static/fonts/fontawesome-webfont.ttf?v=4.5.0
+HTTP_REFERER=http://vhook.frendsdom.com/static/css/style_004.css
+---

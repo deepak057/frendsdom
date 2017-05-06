@@ -1,0 +1,15 @@
+<?php
+
+
+if(!empty($users)){
+	
+	foreach($users as $user){
+
+	$this->widget("Personitem",array("users"=>$user));
+
+	}
+}
+
+
+
+?>

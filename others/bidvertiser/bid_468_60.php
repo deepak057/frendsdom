@@ -1,0 +1,2 @@
+<SCRIPT LANGUAGE="JavaScript1.1" SRC="http://bdv.bidvertiser.com/BidVertiser.dbm?pid=477308&bid=1184196" type="text/javascript"></SCRIPT>
+<noscript><a href="http://www.bidvertiser.com">make money online</a></noscript>

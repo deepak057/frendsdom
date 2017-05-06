@@ -1,0 +1,30 @@
+.loginform{width:800px;margin-top:30px;background:#eee;padding:20px 20px 10px;border:1px solid #d2d2d2;margin-bottom:100px;box-shadow:4px 4px 8px #000}.loginform input,.loginform select{border:1px solid #d2d2d2}.loginform input{height:30px}.loginform select{height:50px}.main-label{margin-bottom:10px;border-bottom:1px dotted grey}#progress{position:fixed;top:100px;left:33%;background:#eee;padding:20px;box-shadow:10px 10px 20px #000;text-align:left;width:30%;font-family:"Trebuchet MS",Tahoma,Arial,Helvetica,sans-serif}#button1{margin-top:30px;border:0}b{font-weight:400}.body-text{font-size:17px!important}.special_btn{height:auto!important}.up-accordion h3{padding:10px 0 10px 25px;border-radius:0!important;background:#eee!important}.up-acc-content{font-size:12px!important}
+
+
+#user-name-field{
+
+width:250px;
+
+}
+
+#user-name-status{
+width:200px;
+left: 10px;
+top: 3px;
+}
+
+#user-name-status img{
+height:20px;
+width:20px;
+}
+
+#user-name-status .status-inner-text{
+position:relative;top:-5px;
+}
+
+.un-choose-btn-container img{
+
+position:relative;
+left:5px;
+top:4px;
+}

@@ -1,0 +1,126 @@
+[09-Dec-2012 08:41:08] OAuth client: Checking the OAuth token authorization state
+[09-Dec-2012 08:41:08] OAuth client: The OAuth access token is not set
+[09-Dec-2012 08:41:08] OAuth client: Requesting the unauthorized OAuth token
+[09-Dec-2012 08:41:08] OAuth client: Accessing the OAuth request token at https://api.login.yahoo.com/oauth/v2/get_request_token
+[09-Dec-2012 08:41:08] Connecting to api.login.yahoo.com
+[09-Dec-2012 08:41:08] Resolving HTTP server domain "api.login.yahoo.com"...
+[09-Dec-2012 08:41:09] Connecting to HTTP server IP 68.142.197.104 port 443...
+[09-Dec-2012 08:41:09] Connected to api.login.yahoo.com
+[09-Dec-2012 08:41:09] C GET /oauth/v2/get_request_token?oauth_consumer_key=dj0yJmk9cll5WnBlTU85QWtCJmQ9WVdrOVRYVm1SRGQwTXpZbWNHbzlNVGMwTnpNNE9EUTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD0yOA--&oauth_nonce=08160efa298b88c1774c488229defe37&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1355042468&oauth_version=1.0&oauth_callback=http%3A%2F%2Fwww.frendsdom.com%2Foauth%2Flogin_with_yahoo.php&oauth_signature=DgDTgogc8v6nLaO9P72tqI1bnas%3D HTTP/1.1
+[09-Dec-2012 08:41:09] C Host: api.login.yahoo.com
+[09-Dec-2012 08:41:09] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.38 $)
+[09-Dec-2012 08:41:09] C Accept: */*
+[09-Dec-2012 08:41:09] C Connection: Keep-Alive
+[09-Dec-2012 08:41:09] C 
+[09-Dec-2012 08:41:09] S HTTP/1.1 200 OK
+[09-Dec-2012 08:41:09] S Date: Sun, 09 Dec 2012 08:41:09 GMT
+[09-Dec-2012 08:41:09] S P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+[09-Dec-2012 08:41:09] S Vary: Accept-Encoding
+[09-Dec-2012 08:41:09] S Connection: close
+[09-Dec-2012 08:41:09] S Transfer-Encoding: chunked
+[09-Dec-2012 08:41:09] S Content-Type: text/plain; charset=utf-8
+[09-Dec-2012 08:41:09] S Cache-Control: private
+[09-Dec-2012 08:41:09] S 
+[09-Dec-2012 08:41:09] S 00000f1
+[09-Dec-2012 08:41:09] S oauth_token=uupmstv&oauth_token_secret=0b8c22141cc4c0917b08e023cc29f6939c828362&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Duupmstv&oauth_callback_confirmed=true
+[09-Dec-2012 08:41:09] S 0
+[09-Dec-2012 08:41:09] S 
+[09-Dec-2012 08:41:09] Disconnected from api.login.yahoo.com
+[09-Dec-2012 08:41:09] OAuth client: Redirecting to OAuth authorize page https://api.login.yahoo.com/oauth/v2/request_auth?oauth_token=uupmstv
+[09-Dec-2012 08:41:09] OAuth client: Checking the OAuth token authorization state
+[09-Dec-2012 08:41:09] OAuth client: The OAuth token is not yet authorized
+[09-Dec-2012 08:41:09] OAuth client: Checking the OAuth token and verifier
+[09-Dec-2012 08:41:09] OAuth client: Reset the OAuth token state because token and verifier are not both set
+[09-Dec-2012 08:41:09] OAuth client: Requesting the unauthorized OAuth token
+[09-Dec-2012 08:41:09] OAuth client: Accessing the OAuth request token at https://api.login.yahoo.com/oauth/v2/get_request_token
+[09-Dec-2012 08:41:09] Connecting to api.login.yahoo.com
+[09-Dec-2012 08:41:09] Resolving HTTP server domain "api.login.yahoo.com"...
+[09-Dec-2012 08:41:09] Connecting to HTTP server IP 68.142.197.104 port 443...
+[09-Dec-2012 08:41:09] Connected to api.login.yahoo.com
+[09-Dec-2012 08:41:09] C GET /oauth/v2/get_request_token?oauth_consumer_key=dj0yJmk9cll5WnBlTU85QWtCJmQ9WVdrOVRYVm1SRGQwTXpZbWNHbzlNVGMwTnpNNE9EUTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD0yOA--&oauth_nonce=79ce231744142e39d0ea95947c5520e8&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1355042469&oauth_version=1.0&oauth_callback=http%3A%2F%2Fwww.frendsdom.com%2Foauth%2Flogin_with_yahoo.php&oauth_signature=P%2FO1Cdxje8FOrCISiEesmAuUyz0%3D HTTP/1.1
+[09-Dec-2012 08:41:09] C Host: api.login.yahoo.com
+[09-Dec-2012 08:41:09] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.38 $)
+[09-Dec-2012 08:41:09] C Accept: */*
+[09-Dec-2012 08:41:09] C Connection: Keep-Alive
+[09-Dec-2012 08:41:09] C 
+[09-Dec-2012 08:41:09] S HTTP/1.1 200 OK
+[09-Dec-2012 08:41:09] S Date: Sun, 09 Dec 2012 08:41:09 GMT
+[09-Dec-2012 08:41:09] S P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+[09-Dec-2012 08:41:09] S Vary: Accept-Encoding
+[09-Dec-2012 08:41:09] S Connection: close
+[09-Dec-2012 08:41:09] S Transfer-Encoding: chunked
+[09-Dec-2012 08:41:09] S Content-Type: text/plain; charset=utf-8
+[09-Dec-2012 08:41:09] S Cache-Control: private
+[09-Dec-2012 08:41:09] S 
+[09-Dec-2012 08:41:09] S 00000f1
+[09-Dec-2012 08:41:09] S oauth_token=uwqxvbh&oauth_token_secret=793aa247b75446a6c299183aab96e850217039c1&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Duwqxvbh&oauth_callback_confirmed=true
+[09-Dec-2012 08:41:09] S 0
+[09-Dec-2012 08:41:09] S 
+[09-Dec-2012 08:41:09] Disconnected from api.login.yahoo.com
+[09-Dec-2012 08:41:09] OAuth client: Redirecting to OAuth authorize page https://api.login.yahoo.com/oauth/v2/request_auth?oauth_token=uwqxvbh
+[09-Dec-2012 08:41:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/frendryg/public_html/oauth/login_with_yahoo.php:59) in /home/frendryg/public_html/oauth/oauth_client.php on line 1482
+[09-Dec-2012 08:41:09] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/frendryg/public_html/oauth/login_with_yahoo.php:59) in /home/frendryg/public_html/oauth/oauth_client.php on line 1483
+[09-Dec-2012 08:41:22] OAuth client: Checking the OAuth token authorization state
+[09-Dec-2012 08:41:22] OAuth client: The OAuth token is not yet authorized
+[09-Dec-2012 08:41:22] OAuth client: Checking the OAuth token and verifier
+[09-Dec-2012 08:41:22] OAuth client: Reset the OAuth token state because token does not match what as previously retrieved
+[09-Dec-2012 08:41:22] OAuth client: Requesting the unauthorized OAuth token
+[09-Dec-2012 08:41:22] OAuth client: Accessing the OAuth request token at https://api.login.yahoo.com/oauth/v2/get_request_token
+[09-Dec-2012 08:41:22] Connecting to api.login.yahoo.com
+[09-Dec-2012 08:41:22] Resolving HTTP server domain "api.login.yahoo.com"...
+[09-Dec-2012 08:41:22] Connecting to HTTP server IP 68.142.197.104 port 443...
+[09-Dec-2012 08:41:22] Connected to api.login.yahoo.com
+[09-Dec-2012 08:41:22] C GET /oauth/v2/get_request_token?oauth_consumer_key=dj0yJmk9cll5WnBlTU85QWtCJmQ9WVdrOVRYVm1SRGQwTXpZbWNHbzlNVGMwTnpNNE9EUTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD0yOA--&oauth_nonce=84d4ff05e6c5e201ae7062f3462dac05&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1355042482&oauth_version=1.0&oauth_callback=http%3A%2F%2Fwww.frendsdom.com%2Foauth%2Flogin_with_yahoo.php&oauth_signature=bNKcc%2FkZHar8oVR8GDjnPQhxzwE%3D HTTP/1.1
+[09-Dec-2012 08:41:22] C Host: api.login.yahoo.com
+[09-Dec-2012 08:41:22] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.38 $)
+[09-Dec-2012 08:41:22] C Accept: */*
+[09-Dec-2012 08:41:22] C Connection: Keep-Alive
+[09-Dec-2012 08:41:22] C 
+[09-Dec-2012 08:41:23] S HTTP/1.1 200 OK
+[09-Dec-2012 08:41:23] S Date: Sun, 09 Dec 2012 08:41:23 GMT
+[09-Dec-2012 08:41:23] S P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+[09-Dec-2012 08:41:23] S Vary: Accept-Encoding
+[09-Dec-2012 08:41:23] S Connection: close
+[09-Dec-2012 08:41:23] S Transfer-Encoding: chunked
+[09-Dec-2012 08:41:23] S Content-Type: text/plain; charset=utf-8
+[09-Dec-2012 08:41:23] S Cache-Control: private
+[09-Dec-2012 08:41:23] S 
+[09-Dec-2012 08:41:23] S 00000f1
+[09-Dec-2012 08:41:23] S oauth_token=ukfntcm&oauth_token_secret=e54fca9169641870f5061bae87d5ef089889091c&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Dukfntcm&oauth_callback_confirmed=true
+[09-Dec-2012 08:41:23] S 0
+[09-Dec-2012 08:41:23] S 
+[09-Dec-2012 08:41:23] Disconnected from api.login.yahoo.com
+[09-Dec-2012 08:41:23] OAuth client: Redirecting to OAuth authorize page https://api.login.yahoo.com/oauth/v2/request_auth?oauth_token=ukfntcm
+[09-Dec-2012 08:41:23] OAuth client: Checking the OAuth token authorization state
+[09-Dec-2012 08:41:23] OAuth client: The OAuth token is not yet authorized
+[09-Dec-2012 08:41:23] OAuth client: Checking the OAuth token and verifier
+[09-Dec-2012 08:41:23] OAuth client: Reset the OAuth token state because token does not match what as previously retrieved
+[09-Dec-2012 08:41:23] OAuth client: Requesting the unauthorized OAuth token
+[09-Dec-2012 08:41:23] OAuth client: Accessing the OAuth request token at https://api.login.yahoo.com/oauth/v2/get_request_token
+[09-Dec-2012 08:41:23] Connecting to api.login.yahoo.com
+[09-Dec-2012 08:41:23] Resolving HTTP server domain "api.login.yahoo.com"...
+[09-Dec-2012 08:41:23] Connecting to HTTP server IP 68.142.197.104 port 443...
+[09-Dec-2012 08:41:23] Connected to api.login.yahoo.com
+[09-Dec-2012 08:41:23] C GET /oauth/v2/get_request_token?oauth_consumer_key=dj0yJmk9cll5WnBlTU85QWtCJmQ9WVdrOVRYVm1SRGQwTXpZbWNHbzlNVGMwTnpNNE9EUTJNZy0tJnM9Y29uc3VtZXJzZWNyZXQmeD0yOA--&oauth_nonce=7a6c5417b22918bd2ce70ff4dc86c9d8&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1355042483&oauth_version=1.0&oauth_callback=http%3A%2F%2Fwww.frendsdom.com%2Foauth%2Flogin_with_yahoo.php&oauth_signature=XZSk8ZcUhLW%2Bov97Bctp%2F%2FvVuWA%3D HTTP/1.1
+[09-Dec-2012 08:41:23] C Host: api.login.yahoo.com
+[09-Dec-2012 08:41:23] C User-Agent: PHP-OAuth-API (http://www.phpclasses.org/oauth-api $Revision: 1.38 $)
+[09-Dec-2012 08:41:23] C Accept: */*
+[09-Dec-2012 08:41:23] C Connection: Keep-Alive
+[09-Dec-2012 08:41:23] C 
+[09-Dec-2012 08:41:23] S HTTP/1.1 200 OK
+[09-Dec-2012 08:41:23] S Date: Sun, 09 Dec 2012 08:41:23 GMT
+[09-Dec-2012 08:41:23] S P3P: policyref="http://info.yahoo.com/w3c/p3p.xml", CP="CAO DSP COR CUR ADM DEV TAI PSA PSD IVAi IVDi CONi TELo OTPi OUR DELi SAMi OTRi UNRi PUBi IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA POL HEA PRE LOC GOV"
+[09-Dec-2012 08:41:23] S Vary: Accept-Encoding
+[09-Dec-2012 08:41:23] S Connection: close
+[09-Dec-2012 08:41:23] S Transfer-Encoding: chunked
+[09-Dec-2012 08:41:23] S Content-Type: text/plain; charset=utf-8
+[09-Dec-2012 08:41:23] S Cache-Control: private
+[09-Dec-2012 08:41:23] S 
+[09-Dec-2012 08:41:23] S 00000f1
+[09-Dec-2012 08:41:23] S oauth_token=uerg2d5&oauth_token_secret=9d87598a33a405974633cac343e39a211a5f30d8&oauth_expires_in=3600&xoauth_request_auth_url=https%3A%2F%2Fapi.login.yahoo.com%2Foauth%2Fv2%2Frequest_auth%3Foauth_token%3Duerg2d5&oauth_callback_confirmed=true
+[09-Dec-2012 08:41:23] S 0
+[09-Dec-2012 08:41:23] S 
+[09-Dec-2012 08:41:23] Disconnected from api.login.yahoo.com
+[09-Dec-2012 08:41:23] OAuth client: Redirecting to OAuth authorize page https://api.login.yahoo.com/oauth/v2/request_auth?oauth_token=uerg2d5
+[09-Dec-2012 08:41:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/frendryg/public_html/oauth/login_with_yahoo.php:59) in /home/frendryg/public_html/oauth/oauth_client.php on line 1482
+[09-Dec-2012 08:41:23] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/frendryg/public_html/oauth/login_with_yahoo.php:59) in /home/frendryg/public_html/oauth/oauth_client.php on line 1483

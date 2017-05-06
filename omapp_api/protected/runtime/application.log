@@ -1,0 +1,685 @@
+2016/10/26 10:28:15 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'omapp.search_cache' doesn't exist. The SQL statement executed was: DELETE FROM search_cache WHERE expire>0 AND expire<1477477695.
+2016/10/26 10:28:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /var/www/html/omapp_api/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CController.php(270): CController->missingAction('')
+#1 /var/www/html/omapp_api/framework/web/CWebApplication.php(282): CController->run('')
+#2 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('ws')
+#3 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/omapp_api/ws
+---
+2016/10/26 10:33:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in /var/www/html/omapp_api/framework/web/CController.php:483
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CController.php(270): CController->missingAction('')
+#1 /var/www/html/omapp_api/framework/web/CWebApplication.php(282): CController->run('')
+#2 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('ws')
+#3 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#5 {main}
+REQUEST_URI=/omapp_api/ws
+---
+2016/10/26 10:37:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 10:37:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 10:37:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 10:37:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 10:37:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 10:37:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 10:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 10:37:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 10:37:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 10:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 10:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 10:37:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 10:37:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 10:37:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 10:37:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 10:39:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 10:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 10:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 10:39:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 10:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 10:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 10:39:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 10:40:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 10:40:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 10:40:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 10:40:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 10:40:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 10:40:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 10:40:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 10:40:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 10:40:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 10:53:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 10:53:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 10:53:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 10:53:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 10:53:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 10:53:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 10:53:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 11:04:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:04:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 11:04:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:04:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 11:04:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 11:04:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 11:27:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:27:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 11:27:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 11:27:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:27:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 11:27:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 11:27:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 11:30:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:30:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 11:30:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 11:30:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:30:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 11:30:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 11:31:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 11:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 11:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 11:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 11:32:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 11:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 11:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 11:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 11:32:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 11:32:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 11:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 11:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 11:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 11:32:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 11:32:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/29.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/29.png
+---
+2016/10/26 11:32:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
+2016/10/26 11:32:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/28.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/28.png
+---
+2016/10/26 11:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/60.png".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/60.png
+---
+2016/10/26 11:32:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "uploads/profile_pictures/94.jpeg".' in /var/www/html/omapp_api/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /var/www/html/omapp_api/framework/web/CWebApplication.php(141): CWebApplication->runController('uploads/profile...')
+#1 /var/www/html/omapp_api/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#2 /var/www/html/omapp_api/index.php(19): CApplication->run()
+#3 {main}
+REQUEST_URI=/omapp_api/uploads/profile_pictures/94.jpeg
+---
