@@ -489,7 +489,7 @@ border-radius:50%;
 border:none;
 font-size:20px;
 margin-top:3px;
-height:30px;
+height:30px !important;
 position:relative !important;
 padding:0px !important;
 
@@ -680,7 +680,7 @@ background: none !important;
 #todo-lists .tl-body #add-tl-item .add-tl-body .status-main-content{
 
 
-height: 70px;
+height: 70px !important;
 padding: 5px 10px;
 
 
