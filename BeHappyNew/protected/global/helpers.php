@@ -696,6 +696,9 @@ class AppURLs extends helpers
 
 public static function Path2URL($file, $Protocol='http://') {
 	
+    //fix the protocol
+    $Protocol= $_SERVER['SERVER_PORT'] == 80? "http://": "https://";
+	
     if(strtoupper(substr(PHP_OS,0,3))==='WIN'){
 
 	$file_p=str_replace('\\','/',$file);
